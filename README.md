@@ -15,3 +15,20 @@ sudo dracut --regenerate-all --force
 ```
 gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 ```
+
+## Install Docker
+```
+sudo dnf install docker docker-compose
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+
+## Enable global clipboard from terminal apps
+```
+sudo dnf install wl-clipboard
+```
+
+## Enable deps for BeeKeeper AppImage
+```
+sudo dnf install zlib-devel fuse
+```
