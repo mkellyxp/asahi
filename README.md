@@ -10,3 +10,8 @@ Then run:
 ```
 sudo dracut --regenerate-all --force
 ```
+
+## Gnome Enable Fractional Scaling
+```
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+```
