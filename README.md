@@ -11,11 +11,6 @@ Then run:
 sudo dracut --regenerate-all --force
 ```
 
-## Gnome Enable Fractional Scaling
-```
-gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
-```
-
 ## Install Docker
 ```
 sudo dnf install docker docker-compose
@@ -31,4 +26,14 @@ sudo dnf install wl-clipboard
 ## Enable deps for BeeKeeper AppImage
 ```
 sudo dnf install zlib-devel fuse
+```
+
+## Gnome Enable Fractional Scaling
+```
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+```
+
+## Gnome Tweaks and Dark Legacy Theme
+```
+sudo dnf install gnome-tweaks gnome-themes-extra
 ```
