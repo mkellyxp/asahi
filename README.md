@@ -18,6 +18,11 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 
+## Install Node
+```
+sudo dnf install nodejs
+```
+
 ## Enable global clipboard from terminal apps
 ```
 sudo dnf install wl-clipboard
