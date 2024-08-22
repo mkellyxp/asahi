@@ -56,3 +56,14 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 ```
 sudo dnf install gnome-tweaks gnome-themes-extra
 ```
+
+## Better Icons
+```
+sudo dnf install papirus-icon-theme
+```
+
+## Gnome Extensions
+```
+sudo dnf install gnomne-extension-app
+```
+
