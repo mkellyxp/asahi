@@ -32,6 +32,20 @@ sudo dnf install wl-clipboard
 ```
 sudo dnf install zlib-devel fuse
 ```
+Then make desktop file
+```
+# ~/.local/share/applications/beekeeper.desktop
+[Desktop Entry]
+Name=Beekeeper Studio
+Exec=/home/mkelly/Beekeeper.AppImage --enable-features=UseOzonePlatform --ozone-platform=wayland
+Icon=beekeeper-studio
+Type=Application
+Categories=Utility;Application;
+Terminal=false
+X-AppImage-Version=1.0
+Comment=This is a comment about the AppImage
+```
+
 
 ## Gnome Enable Fractional Scaling
 ```
