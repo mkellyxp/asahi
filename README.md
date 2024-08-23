@@ -39,6 +39,7 @@ Then make desktop file
 Name=Beekeeper Studio
 Exec=/home/mkelly/Beekeeper.AppImage --enable-features=UseOzonePlatform --ozone-platform=wayland
 Icon=beekeeper-studio
+StartupWMClass=beekeeper-studio
 Type=Application
 Categories=Utility;Application;
 Terminal=false
