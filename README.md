@@ -46,6 +46,11 @@ X-AppImage-Version=1.0
 Comment=This is a comment about the AppImage
 ```
 
+## Git Gui
+```
+flatpak install flathub com.github.Murmele.Gittyup
+```
+
 
 ## Gnome Enable Fractional Scaling
 ```
