@@ -68,6 +68,14 @@ sudo dnf install gnome-tweaks gnome-themes-extra
 sudo dnf install papirus-icon-theme
 ```
 
+## Install Helix Editor and LSPs
+```
+sudo dnf install helix
+sudo npm install -g vscode-langservers-extracted
+sudo npm install -g @tailwindcss/language-server --force
+sudo npm install -g intelephense
+```
+
 ## Gnome Extensions
 ```
 sudo dnf install gnomne-extension-app
